@@ -7,28 +7,28 @@
 ### Can do?
 
 1. Session + window name fuzzy search and switch.
-2. Create new session
+2. Create a new session
 
 ### Reason don't use this plugin?
 
 1. [tmux-fzf](https://github.com/sainnhe/tmux-fzf) have more black magic.
 2. [tmux-fzf](https://github.com/sainnhe/tmux-fzf) have single shortcut for [switch session](https://github.com/sainnhe/tmux-fzf/issues/6) and many function [tmux-fzf](https://github.com/sainnhe/tmux-fzf) had.
 
-### Reason use this plugin?
+### Reason for using this plugin?
 
-One single shortcut for switch sessions, windows and create new session. This make simple flow, "i want go to ?, press shortcut type ? enter done.", "i want go to ?, press shortcut type ?, Uh! not have that okay press enter create new session with ? name"
+One single shortcut for switching sessions, windows, and creating new sessions. This makes simple flow, "i want to go to ? press shortcut type ? enter done.", "i want to go to ?, press shortcut type ?, Uh! not have that okay press enter to create new session with? name"
 
 ### Plan
 
-Blazingly fast tmux workflow, built muscle memory, better DX.
+Blazingly fast Tmux workflow, built muscle memory, better DX.
 
 ### Not in plan
 
-Becoming chad, have super black magic power like [tmux-fzf](https://github.com/sainnhe/tmux-fzf)
+Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/sainnhe/tmux-fzf)
 
-### Why I don't create push request to main repo?
+### Why I don't create a push request to the main repo?
 
-"Don't confirm `y` to create a new session". This one different flow from the original repo. So that's why I don't push request into original repo.
+"Don't confirm `y` to create a new session". This one different flow from the original repo. So that's why I don't push requests into the original repo.
 
 ## Getting started
 
