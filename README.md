@@ -32,6 +32,9 @@ Becoming chad, have super black magic power like [tmux-fzf](https://github.com/s
 
 ## Getting started
 
+- Video:
+  - Tutorial: https://youtu.be/WJEphxyKAbw
+  - Demo v2, session + window search: https://youtu.be/XWdDwQJgUmw
 - Install the [tpm](https://github.com/tmux-plugins/tpm) Tmux Plugin Manager.
 - Put `set -g @plugin 'thuanOwa/tmux-fzf-session-switch'` into your tmux config
 - Use tpm to install this plugin. Default you can press `prefix + I` (`I` is
