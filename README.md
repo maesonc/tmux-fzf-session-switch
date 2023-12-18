@@ -1,5 +1,7 @@
 # TMUX FZF Session Switch
 
+> I no longer use tmux cuz i'm in windows now and i switch to video editor so i think, I no longer dev new feat **but** you can. Welcome Pull request or be the active maintainer 
+
 ![preview img](/img/preview.png)
 
 ## QnA
