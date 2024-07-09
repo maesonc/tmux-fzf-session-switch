@@ -1,7 +1,5 @@
 # TMUX FZF Session Switch
 
-> I no longer use tmux cuz i'm in windows now and i switch to video editor so i think, I no longer dev new feat **but** you can. Welcome Pull request or be the active maintainer 
-
 ![preview img](/img/preview.png)
 
 ## QnA
@@ -41,7 +39,7 @@ Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/s
 - Put `set -g @plugin 'brokenricefilms/tmux-fzf-session-switch'` into your tmux config
 - Use tpm to install this plugin. Default you can press `prefix + I` (`I` is
   `shift + i` = I)
-- `Prefix + Ctrl + f`: Open up fzf in a new tab. (e.g. prefix = ctrl + b. Hold ctrl -> press a -> press f -> done)
+- `Prefix + Ctrl + f`: Open up fzf in a new tab. (e.g. prefix = ctrl + b. Hold ctrl -> press b -> press f -> done)
 - If you type a name that doesn't exist, you will be prompted to create it.
 
 > If this name conflicts with another session name -> add a double/single quotes `'example'`
