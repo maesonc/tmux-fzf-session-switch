@@ -38,7 +38,7 @@ Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/s
   - Tutorial: https://youtu.be/WJEphxyKAbw
   - Demo v2, session + window search: https://youtu.be/XWdDwQJgUmw
 - Install the [tpm](https://github.com/tmux-plugins/tpm) Tmux Plugin Manager.
-- Put `set -g @plugin 'thuantanphamfilms/tmux-fzf-session-switch'` into your tmux config
+- Put `set -g @plugin 'brokenricefilms/tmux-fzf-session-switch'` into your tmux config
 - Use tpm to install this plugin. Default you can press `prefix + I` (`I` is
   `shift + i` = I)
 - `Prefix + Ctrl + f`: Open up fzf in a new tab. (e.g. prefix = ctrl + b. Hold ctrl -> press a -> press f -> done)
@@ -48,7 +48,7 @@ Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/s
 
 ## Requirements
 
-- [Tmux >= 3.3a](https://github.com/thuantanphamfilms/tmux-fzf-session-switch/pull/5/files) `pop-up menu`
+- [Tmux >= 3.3a](https://github.com/brokenricefilms/tmux-fzf-session-switch/pull/5/files) `pop-up menu`
 - [fzf](https://github.com/junegunn/fzf)
 
 ## Customize
@@ -127,7 +127,7 @@ alias clear='tmux_kill_uname_session ; clear -x'
 
 - In my use case, I don't use this keybinding for switch sessions, I use `hold space + ;` mapping for `hold Ctrl + a + f`
 - How can I use `hold space + ;` mapping?
-  -> I use [input remapper](https://github.com/sezanzeb/input-remapper), also you can see [my dotfiles](https://github.com/thuantanphamfilms/dotfiles)
+  -> I use [input remapper](https://github.com/sezanzeb/input-remapper), also you can see [my dotfiles](https://github.com/brokenricefilms/dotfiles)
 
 > config in GUI
 
