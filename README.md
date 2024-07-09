@@ -26,15 +26,13 @@ Blazingly fast Tmux workflow, built muscle memory, better DX.
 
 Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/sainnhe/tmux-fzf)
 
-### Why I don't create a push request to the main repo?
+## Requirements
 
-"Don't confirm `y` to create a new session". This one different flow from the original repo. So that's why I don't push requests into the original repo.
+- [Tmux >= 3.3a](https://github.com/brokenricefilms/tmux-fzf-session-switch/pull/5/files) `pop-up menu`
+- [fzf](https://github.com/junegunn/fzf)
 
 ## Getting started
 
-- Video:
-  - Tutorial: https://youtu.be/WJEphxyKAbw
-  - Demo v2, session + window search: https://youtu.be/XWdDwQJgUmw
 - Install the [tpm](https://github.com/tmux-plugins/tpm) Tmux Plugin Manager.
 - Put `set -g @plugin 'brokenricefilms/tmux-fzf-session-switch'` into your tmux config
 - Use tpm to install this plugin. Default you can press `prefix + I` (`I` is
@@ -43,11 +41,6 @@ Becoming Chad, have super black magic power like [tmux-fzf](https://github.com/s
 - If you type a name that doesn't exist, you will be prompted to create it.
 
 > If this name conflicts with another session name -> add a double/single quotes `'example'`
-
-## Requirements
-
-- [Tmux >= 3.3a](https://github.com/brokenricefilms/tmux-fzf-session-switch/pull/5/files) `pop-up menu`
-- [fzf](https://github.com/junegunn/fzf)
 
 ## Customize
 
