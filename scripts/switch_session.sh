@@ -9,7 +9,7 @@ function main {
   local sess_arr
   local retval
   sessions=$(tmux list-sessions -F "#{session_name}" |
-    grep -v "$(tmux display-message -p '#S')"|
+    ( grep -v "$(tmux display-message -p '#S')" || echo "" )|
     fzf --exit-0 --print-query --reverse)
   retval=$?
 
