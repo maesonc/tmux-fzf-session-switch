@@ -32,29 +32,28 @@ function set_goto_session_bindings {
 	local height=$(get_tmux_option "$tmux_option_height" "$default_height")
 	local search_session_only=$(get_tmux_option "$tmux_option_search_session_only" "$defautl_search_session_only")
 
-
 	if [ "$search_session_only" = false ]; then
 		if [ "$without_prefix" = true ]; then
 			local key
 			for key in $key_bindings; do
-				tmux bind -n "$key" display-popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session_window.sh"
+				tmux bind -n "$key" popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session_window.sh"
 			done
 		else
 			local key
 			for key in $key_bindings; do
-				tmux bind "$key" display-popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session_window.sh"
+				tmux bind "$key" popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session_window.sh"
 			done
 		fi
 	else
 		if [ "$without_prefix" = true ]; then
 			local key
 			for key in $key_bindings; do
-				tmux bind -n "$key" display-popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session.sh"
+				tmux bind -n "$key" popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session.sh"
 			done
 		else
 			local key
 			for key in $key_bindings; do
-				tmux bind "$key" display-popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session.sh"
+				tmux bind "$key" popup -w "$width" -h "$height" -y 15 -E "$CURRENT_DIR/scripts/switch_session.sh"
 			done
 		fi
 	fi

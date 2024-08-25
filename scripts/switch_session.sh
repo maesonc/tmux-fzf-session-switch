@@ -9,7 +9,7 @@ function main {
   local sess_arr
   local retval
   sessions=$(tmux list-sessions -F "#{session_name}" |
-    ( grep -v "$(tmux display-message -p '#S')" || echo "" )|
+    (grep -v "$(tmux display-message -p '#S')" || echo "") |
     fzf --exit-0 --print-query --reverse)
   retval=$?
 
@@ -24,8 +24,7 @@ function main {
     fi
     tmux switch-client -t "$session"
   elif [ $retval == 1 ]; then
-    tmux command-prompt -p "Press enter to create and go to [$query] session" \
-      "run '$CURRENT_DIR/make_new_session.sh \"$query\" \"%1\"'"
+    tmux new-session -d -s "$query" && tmux switch-client -t "$query"
   fi
 }
 main
